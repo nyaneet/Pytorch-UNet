@@ -1,0 +1,102 @@
+{
+    "iip": {
+        "unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 2,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "att_gate_unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 2,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "cbam_unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 2,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "transunet": {
+            "epochs": 100,
+            "learning_rate": 0.001,
+            "n_channels": 2,
+            "n_classes": 1,
+            "weight_decay": 0.0001,
+            "momentum": 0.9,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        }
+    },
+    "hrsid": {
+        "unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 1,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "att_gate_unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 1,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "cbam_unet3+": {
+            "epochs": 100,
+            "learning_rate": 1e-05,
+            "n_channels": 1,
+            "n_classes": 1,
+            "weight_decay": 1e-08,
+            "momentum": 0.999,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        },
+        "transunet": {
+            "epochs": 100,
+            "learning_rate": 0.001,
+            "n_channels": 2,
+            "n_classes": 1,
+            "weight_decay": 0.0001,
+            "momentum": 0.9,
+            "gradient_clipping": 1.0,
+            "amp": false,
+            "patch_size": 128,
+            "batch_size": 4
+        }
+    }
+}
