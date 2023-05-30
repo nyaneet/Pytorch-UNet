@@ -1,8 +1,8 @@
 Segmentation of ships and icebergs on SAR satellite images.
 
-Data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1Se8tkQmPCCkDxAGINVrUcs0tfBRgOkqN?usp=sharing).
+Data and weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1Se8tkQmPCCkDxAGINVrUcs0tfBRgOkqN?usp=sharing).
 
-## Quick start
+## Prerequisites
 
 1. [Install CUDA 11.7/11.8](https://developer.nvidia.com/cuda-downloads)
 
